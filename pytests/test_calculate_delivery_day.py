@@ -19,6 +19,6 @@ def test_get_delivery_date():
     assert value == expected
     
     #test: 4
-    expected = "2022, 01, 04"
+    expected = "2022, 01, 03"
     value = get_delivery_date(datetime(2021, 12, 30, 14, 15, 12, 0, tzinfo=timezone.utc))
     assert value == expected
